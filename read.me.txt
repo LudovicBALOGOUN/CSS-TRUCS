@@ -1,0 +1,3 @@
+L'element nouveau appris dans ce code:
+- mix-blend-mode: difference (CSS)et la commande 
+- contentededitable(html).

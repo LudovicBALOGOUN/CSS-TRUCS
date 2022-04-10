@@ -1,0 +1,43 @@
+
+
+.container{
+    background: linear-gradient(90deg, black 50%, yellow 50%);
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    position: relative;
+    box-shadow: 2px 1px 2px #333;
+    margin: 10rem auto;
+    border-radius: 8px;
+}
+h1{
+    color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    text-transform: uppercase;
+    font-family: 'Russo one', cursive;
+    mix-blend-mode: difference;
+    animation: move linear infinite 10s;
+
+}
+
+@keyframes move {
+    0%{
+        transform: translate(-400px, -90px);
+    }
+    25%{
+        transform: translate(-220px, 0px);
+    }
+    50%{
+        transform: translate(-60px, -90px);
+    }
+    75%{
+        transform: translate(-220px, -180px);
+    }
+    100%{
+        transform: translate(-400px, -90px);
+    }
+
+}
